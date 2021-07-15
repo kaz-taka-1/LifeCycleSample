@@ -17,6 +17,10 @@ class MainActivity : AppCompatActivity() {
         Log.i("LifeCycleSample","Main onStart() called.")
         super.onStart()
     }
+    public override fun onRestart() {
+        Log.i("LifeCycleSample", "Main onRestart() called.")
+        super.onRestart()
+    }
 
     public override fun onResume() {
         Log.i("LifeCycleSample","Main onResume() called.")
